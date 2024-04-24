@@ -1,6 +1,6 @@
 .sideImg {
   width: 100px;
-  height: 200px;
+  height: 300px;
   box-shadow: 2px 3px 15px #C67E2A;
   animation: float 4s infinite;
 }
