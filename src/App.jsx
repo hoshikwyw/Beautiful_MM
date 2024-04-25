@@ -8,6 +8,7 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import './App.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Gallery from './common/Gallery'
 
 AOS.init();
 
@@ -74,8 +75,8 @@ const App = () => {
       <hr />
       <div className="  bg-[#23160D] images flex flex-col justify-center items-center py-5">
         <h1 className=' text-[70px] font-extrabold font-serif text-white underline'>Images</h1>
-        <div className="showcase">
-
+        <div className=" w-[1000px] py-10 relative">
+          <Gallery />
         </div>
       </div>
     </div>
